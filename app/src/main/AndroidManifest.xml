@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ambergarage.holokitsdk.holokitscreenbrightnessmanager">
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity android:name=".HolokitScreenBrightnessManagerActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+</manifest>
